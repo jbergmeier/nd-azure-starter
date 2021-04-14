@@ -5,8 +5,8 @@ basedir = os.path.abspath(os.path.dirname(__file__))
 class Config(object):
     SECRET_KEY = os.environ.get('SECRET_KEY') or 'secret-key'
 
-    BLOB_ACCOUNT = os.environ.get('BLOB_ACCOUNT') or 'ENTER_STORAGE_ACCOUNT_NAME'
-    BLOB_STORAGE_KEY = os.environ.get('BLOB_STORAGE_KEY') or 'ndstorageazure'
+    BLOB_ACCOUNT = os.environ.get('BLOB_ACCOUNT') or 'ndstorageazure'
+    BLOB_STORAGE_KEY = os.environ.get('BLOB_STORAGE_KEY') or 'T89ksmjHYOgEw7yMgR1W6vpWn7PWBgPU59laa4Xyz93wdIku97zYQFOTNOrdlPZpWHISWs/z0/RaSzzoSJKadQ=='
     BLOB_CONTAINER = os.environ.get('BLOB_CONTAINER') or 'images'
 
     SQL_SERVER = os.environ.get('SQL_SERVER') or 'nd-azure-sql-server.database.windows.net'

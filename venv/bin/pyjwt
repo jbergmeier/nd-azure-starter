@@ -1,4 +1,4 @@
-#!/Users/jbergmeier/localdev/nd-azure-starter/venv/bin/python3
+#!/mnt/c/Users/berg180/localdev/nd-azure-starter/venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
